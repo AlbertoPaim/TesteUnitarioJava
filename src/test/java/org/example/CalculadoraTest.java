@@ -32,4 +32,11 @@ public class CalculadoraTest {
         double resultadoObtido = calculadora.subtrair(a, b);
         Assert.assertEquals(resultadoEsperado, resultadoObtido, 00.1);
     }
+
+    @Test
+    public void testarSe2vezes2E4() {
+        Assert.assertEquals(4, calculadora.multiplicar(2, 2), 0.01);
+    }
+
+
 }
